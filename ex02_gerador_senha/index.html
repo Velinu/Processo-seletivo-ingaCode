@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <h1>Gerador de Senhas</h1>
+
+    <label for="tamanhoSenha">Tamanho da Senha:</label>
+    <input type="range" id="tamanhoSenha" name="tamanhoSenha" min="1" max="20" value="10">
+    <h2 id="quantidadeCaracteres"></h2>
+    <br><br>
+
+    <input type="checkbox" id="maiusculas" name="maiusculas">
+    <label for="maiusculas">Incluir uma letra maiúscula</label>
+    <br>
+
+    <input type="checkbox" id="minusculas" name="minusculas">
+    <label for="minusculas">Incluir uma letra minúscula</label>
+    <br>
+
+    <input type="checkbox" id="numeros" name="numeros">
+    <label for="numeros">Incluir um número</label>
+    <br>
+
+    <input type="checkbox" id="simbolos" name="simbolos">
+    <label for="simbolos">Incluir símbolos</label>
+    <br>
+
+    <input type="checkbox" id="emojis" name="emojis">
+    <label for="emojis">Incluir emojis</label>
+    <br><br>
+    
+    <button id="gerarSenha">Gerar Senha</button>
+    <h1 id="senha">d</h1>
+    <button id="copiarTrans">Copiar para a Área de Transferência</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
